@@ -1,0 +1,175 @@
+@font-face {
+    font-family:s2 ;
+    src: url(4PUMKPO7UMWCY6AUSYUVMCIQCUHPZGR6.woff2);
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+     background-color: black;
+    color: aliceblue;
+}
+#nav{
+    height: 60px;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+
+}
+#fnav{
+    display: flex;
+    padding-top: 30px;
+    font-family: s2;
+
+   
+
+   
+  
+}
+#fnav >h1{
+    padding-left: 30px;
+    font-weight: 100;
+    font-size: 25px;
+    
+
+   
+
+}
+#mnav{
+    padding-top: 30px;
+     font-weight: 200;
+    font-size: x-large;
+    
+    
+}
+
+
+#mnav >h1{
+    
+   
+   
+}
+#lnav{
+    display: flex;
+   
+    padding-top: 30px;
+
+}
+#lnav >h1{
+    padding-right: 30px;
+     font-weight: 100;
+    font-size: 25px;
+    font-family: s2;
+}
+#img{
+  position: absolute;
+  top: 370px
+}
+#img #i1{
+   position: absolute;
+   height: 300px;
+   width: 180px;
+   left: 920px;
+    z-index: 1; 
+    border-radius: 6px;
+    border: 1px solid white;
+   
+
+ 
+}
+#img #i2{
+  position: absolute;
+   height: 160px;
+   width:  170px;
+   left:  700px;
+   top: 90px;
+      border-radius: 6px;
+    border: 1px solid white;
+   
+
+ 
+}
+#img #i3{
+     position: absolute;
+  height: 160px;
+   width:  170px;
+   left: 790px;
+   top: 200px;
+      border-radius: 6px;
+    border: 1px solid white;
+
+  
+   
+   
+
+ 
+}
+#m1{
+    font-size: 170px;
+    font-weight: 300px;
+    padding-top:40px;
+    padding-left: 60px;
+}
+
+#p1{
+    padding-top: 40px;
+    padding-left: 60px;
+    width: 400px;
+}
+#p1 >h1{
+    font-weight: 15px;
+    font-size: 20px;
+    padding-bottom: 7px;
+
+    
+    
+}
+#p1 >p{
+    font-family: s2;
+    font-weight: 5px;
+    font-size: 15px;
+}
+#p2{
+    padding-top: 20px;
+    padding-left: 60px;
+    width: 400px;
+}
+#p2 >h1{
+    font-weight: 15px;
+    font-size: 20px;
+    padding-bottom: 5px;
+
+    
+    
+}
+#p2 >p{
+    font-family: s2;
+    font-weight: 5px;
+    font-size: 15px;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#footer h1{
+    
+    font-style: italic;
+}
+#footer a{
+    text-decoration: none;
+    text-transform: none;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 100px;
+    
+    font-style: italic;
+    
+}
